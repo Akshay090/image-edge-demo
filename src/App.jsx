@@ -23,7 +23,7 @@ function App() {
         </div>
         <div>
           <Image
-            path="/images/gallery/view.jpeg"
+            path="/images/gallery/city.jpeg"
             previewSize="8px"
             width="500px"
             height="500px"
@@ -33,7 +33,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/view.jpeg"
+            path="/images/gallery/lion.jpeg"
             previewSize="64px"
             width="500px"
             height="500px"
@@ -43,7 +43,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/view.jpeg"
+            path="/images/gallery/mountain.jpeg"
             previewSize="128px"
             width="500px"
             height="500px"
@@ -53,7 +53,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/view.jpeg"
+            path="/images/gallery/person.jpeg"
             previewSize="128px"
             width="500px"
             height="500px"
@@ -63,7 +63,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/view.jpeg"
+            path="/images/gallery/snow.jpeg"
             previewSize="512px"
             width="500px"
             height="500px"
@@ -73,7 +73,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/view.jpeg"
+            path="/images/gallery/van.jpeg"
             previewSize="1024px"
             width="500px"
             height="500px"
