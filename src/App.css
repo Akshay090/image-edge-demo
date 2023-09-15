@@ -1,0 +1,48 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/*
+  The grid itself needs only 4 CSS declarations:
+*/
+
+.myGallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  max-width: 70vw;
+  margin: 4em auto;
+}
+
+.myGallery img {
+  width: 100%;
+}
+
+.myGallery p {
+  text-align: start;
+}
+
+
+/*
+  The rest is only styling for this example page
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;900&display=swap");
+
+body {
+  font: 400 1.5em/1.58 Vollkorn, serif;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.myGallery {
+  font-size: 1rem;
+}
