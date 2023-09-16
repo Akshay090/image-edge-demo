@@ -20,10 +20,6 @@ const ImageComponent = ({ height, width, path, previewSize }) => {
   const isSrcPreviewURL = imgSrc === previewURL;
 
   useEffect(() => {
-    console.log("isIntersecting ", isIntersecting, path);
-  }, [isIntersecting, path]);
-
-  useEffect(() => {
     if (isIntersecting) {
       setImgSrc(imageURL);
     }
