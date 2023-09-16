@@ -1,17 +1,14 @@
 import { useEffect, useState } from "react";
 import useIntersectionObserver from "./useIntersectionObserver";
-import { getNearestCeilingPixelValue, getImageUrl } from "./utils";
+import { getImageUrl } from "./utils";
 
 // previewSize - 1, 8, 64, 128, 256, 512, 1024, 2048
 const ImageComponent = ({ height, width, path, previewSize }) => {
-  const { containerRef, containerWidth, isIntersecting } =
-    useIntersectionObserver();
+  const { containerRef, isIntersecting } = useIntersectionObserver();
 
   const baseURL = "https://d152pmcrqu9fdo.cloudfront.net/";
 
-  const containerCeilSize = getNearestCeilingPixelValue(containerWidth);
-
-  const imageURL = getImageUrl({ baseURL, width: containerCeilSize, path });
+  const imageURL = getImageUrl({ baseURL, path });
 
   const previewURL = getImageUrl({ baseURL, width: previewSize, path });
 

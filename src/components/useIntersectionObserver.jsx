@@ -16,8 +16,8 @@ const useIntersectionObserver = (option = {}) => {
     const observer = new IntersectionObserver(intersectionCallback, {
       // load image 2px before it appears, for demo
       root: null,
-      rootMargin: "2px",
-      threshold: 0.0,
+      rootMargin: "0px 0px -50% 0px",
+      threshold: 0.5, // half of item height
       ...option,
     });
     if (containerRef.current) observer.observe(containerRef.current);

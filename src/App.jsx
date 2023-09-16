@@ -12,6 +12,13 @@ function App() {
         architecto cupiditate earum obcaecati doloremque quisquam.
       </p>
 
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+        harum illum inventore ipsum dignissimos possimus qui quisquam.
+        Similique, assumenda alias blanditiis, placeat, recusandae iste
+        architecto cupiditate earum obcaecati doloremque quisquam.
+      </p>
+
       <div className="myGallery">
         <div>
           <Image
@@ -62,7 +69,7 @@ function App() {
           <p>Size 128px</p>
         </div>
 
-        <div>
+        {/* <div>
           <Image
             path="/images/gallery/view.jpeg"
             previewSize="512px"
@@ -70,7 +77,7 @@ function App() {
             height="500px"
           />
           <p>Size 512px</p>
-        </div>
+        </div> */}
 
         <div>
           <Image
