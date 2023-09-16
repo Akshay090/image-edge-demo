@@ -11,6 +11,7 @@ function App() {
         Similique, assumenda alias blanditiis, placeat, recusandae iste
         architecto cupiditate earum obcaecati doloremque quisquam.
       </p>
+
       <div className="myGallery">
         <div>
           <Image
@@ -23,7 +24,7 @@ function App() {
         </div>
         <div>
           <Image
-            path="/images/gallery/city.jpeg"
+            path="/images/gallery/view.jpeg"
             previewSize="8px"
             width="500px"
             height="500px"
@@ -33,7 +34,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/lion.jpeg"
+            path="/images/gallery/view.jpeg"
             previewSize="64px"
             width="500px"
             height="500px"
@@ -43,7 +44,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/mountain.jpeg"
+            path="/images/gallery/view.jpeg"
             previewSize="128px"
             width="500px"
             height="500px"
@@ -53,7 +54,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/person.jpeg"
+            path="/images/gallery/view.jpeg"
             previewSize="128px"
             width="500px"
             height="500px"
@@ -63,7 +64,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/snow.jpeg"
+            path="/images/gallery/view.jpeg"
             previewSize="512px"
             width="500px"
             height="500px"
@@ -73,7 +74,7 @@ function App() {
 
         <div>
           <Image
-            path="/images/gallery/van.jpeg"
+            path="/images/gallery/view.jpeg"
             previewSize="1024px"
             width="500px"
             height="500px"

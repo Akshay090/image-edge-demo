@@ -14,9 +14,9 @@ const useIntersectionObserver = (option = {}) => {
 
   useEffect(() => {
     const observer = new IntersectionObserver(intersectionCallback, {
-      // load image 200px before it appears
+      // load image 2px before it appears, for demo
       root: null,
-      rootMargin: "200px",
+      rootMargin: "2px",
       threshold: 0.0,
       ...option,
     });

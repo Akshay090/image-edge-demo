@@ -20,21 +20,14 @@ const ImageComponent = ({ height, width, path, previewSize }) => {
   const isSrcPreviewURL = imgSrc === previewURL;
 
   useEffect(() => {
-    if (isIntersecting) {
-      setImgSrc(imgSrc);
-    }
-  }, [imgSrc, isIntersecting]);
+    console.log("isIntersecting ", isIntersecting, path);
+  }, [isIntersecting, path]);
 
   useEffect(() => {
-    const img = new Image();
-    img.src = imageURL;
-    img.onload = () => {
+    if (isIntersecting) {
       setImgSrc(imageURL);
-    };
-    img.onerror = () => {
-      console.log("failed to load ", imageURL);
-    };
-  }, [imageURL]);
+    }
+  }, [imageURL, isIntersecting]);
 
   return (
     <div
